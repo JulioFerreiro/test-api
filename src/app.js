@@ -16,9 +16,9 @@ import alunoRoutes from './routes/alunoRoutes';
 import fotoRoutes from './routes/fotoRoutes';
 
 const whiteList = [
-  'https://cursojsreact.shop',
   'http://localhost:3000',
-  'https://api-agenda-xwdp.onrender.com',
+  'https://cursojsreact.shop',
+  'https://projetoagenda.onrender.com',
 ];
 
 const corsOptions = {
