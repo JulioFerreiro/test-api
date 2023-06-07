@@ -18,6 +18,7 @@ import fotoRoutes from './routes/fotoRoutes';
 const whiteList = [
   'https://cursojsreact.shop',
   'http://localhost:3000',
+  'https://api-agenda-xwdp.onrender.com',
 ];
 
 const corsOptions = {
