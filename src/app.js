@@ -16,9 +16,9 @@ import alunoRoutes from './routes/alunoRoutes';
 import fotoRoutes from './routes/fotoRoutes';
 
 const whiteList = [
-  'http://localhost:3000',
   'https://cursojsreact.shop',
   'https://projetoagenda.onrender.com',
+  'http://localhost:3000',
 ];
 
 const corsOptions = {
