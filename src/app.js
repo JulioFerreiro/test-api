@@ -22,13 +22,13 @@ const whiteList = [
 ];
 
 const corsOptions = {
-  origin: function (origin, callback) {
-    if (whiteList.indexOf(origin) !== -1) {
+  origin(origin, callback) {
+    if (whiteList.indexOf(origin) === -1 || !origin) {
       callback(null, true); // Permitir a origem
     } else {
       callback(new Error('Not Allowed by CORS')); // Negar a origem
     }
-  }
+  },
 };
 
 class App {
